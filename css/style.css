@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 50px;
+}
+.header{
+    background-color: #0077b6;
+    height: 100px;
+}
+.nav .links li{
+    display: inline-block;
+}
+.nav .links li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+main{
+    min-height: calc(100vh - 140px);
+    background-color: #023e8a;
+}
+.section_img{
+    height: 80px;
+}
+.flex-container{
+    display: flex;
+}
+.footer{
+    background-color: #03045e;
+    height: 40px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
