@@ -104,10 +104,6 @@
   }
 }
 @media only screen and (max-width: 576px) {
-  .navbar {
-    display: flex;
-    flex-wrap: nowrap;
-  }
   .navbar .navbar-brand img {
     width: 150px;
     height: 150px;
@@ -126,26 +122,3 @@
     padding: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
-@media only screen and (Max-width:320px) {
-  .navbar {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  .navbar .navbar-brand img {
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    border-radius: 90%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    justify-content: center;
-  }
-  .navbar .nav-item {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-family: "Open Sans", sans-serif;
-    margin: 8px;
-    padding: 13px;
-  }
-}
